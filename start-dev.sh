@@ -30,7 +30,7 @@ DJANGO_PID=$!
 
 # Start Next.js frontend
 echo "Starting Next.js frontend..."
-cd frontend
+cd front-end
 echo "Installing/updating Next.js dependencies..."
 npm install
 if [ $? -ne 0 ]; then

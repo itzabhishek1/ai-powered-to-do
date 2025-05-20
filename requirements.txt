@@ -7,3 +7,4 @@ prometheus_client
 google-generativeai>=0.3.0
 python-dotenv
 django-cors-headers
+gunicorn
